@@ -11,6 +11,10 @@ public abstract class TeamSport extends Sport {
 		this.type = type;
 		this.teamPlayers = teamPlayers;
 	}
+	
+	public TeamSport() {
+		
+	}
 
 	public abstract void playAsTeam();
 

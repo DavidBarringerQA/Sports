@@ -3,15 +3,19 @@ public class Football extends TeamSport implements IPlay {
 	
 	private String teamOne;
 	private String teamTwo;
-	private String refree;
+	private String referee;
 	
 
 	public Football(String name, int players, String type, int teamPlayers, String teamOne, String teamTwo,
-			String refree) {
+			String referee) {
 		super(name, players, type, teamPlayers);
 		this.teamOne = teamOne;
 		this.teamTwo = teamTwo;
-		this.refree = refree;
+		this.referee = referee;
+	}
+
+	public Football() {
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -35,17 +39,17 @@ public class Football extends TeamSport implements IPlay {
 		this.teamTwo = teamTwo;
 	}
 
-	public String getRefree() {
-		return refree;
+	public String getReferee() {
+		return referee;
 	}
 
-	public void setRefree(String refree) {
-		this.refree = refree;
+	public void setReferee(String referee) {
+		this.referee = referee;
 	}
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		System.out.println("Ball is kicked from the centre of the pitch");
 		
 	}
 

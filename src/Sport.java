@@ -8,6 +8,10 @@ public abstract class Sport {
     this.name = name;
     this.players = players;
   }
+  
+  public Sport() {
+	  
+  }
 
   public String getName(){
     return this.name;
