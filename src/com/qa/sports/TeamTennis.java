@@ -1,12 +1,13 @@
+package com.qa.sports;
 
-public class Tennis extends TeamSport {
+public class TeamTennis extends TeamSport {
 	
 	private int games;
 	private int sets;
 	private int totalPlayers;
 
 
-	public Tennis(String name, int players, String type, int teamPlayers, int games, int sets, int totalPlayers) {
+	public TeamTennis(String name, int players, String type, int teamPlayers, int games, int sets, int totalPlayers) {
 		super(name, players, type, teamPlayers);
 		this.games = games;
 		this.sets = sets;

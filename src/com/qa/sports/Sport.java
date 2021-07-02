@@ -1,3 +1,4 @@
+package com.qa.sports;
 
 public abstract class Sport {
 	
